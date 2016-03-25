@@ -1,0 +1,8 @@
+Part Number	Manufacturer	Component	Footprint	Quantity Available	Qty Req Per Kit	Order Multiple	Quantity Ordered	Prototype Price	Total
+"SDR0805-3R3ML"	"Bourns"	"L1"	"SDR0805"	"> 10"	"1"	"1"	"1"	"$ 0.58"	"$ 0.58"
+"CRCW040256K2FKED"	"Vishay-Dale"	"Rfbt"	"0402"	"> 10"	"1"	"10"	"10"	"$ 0.08"	"$ 0.80"
+"TPS563200DDCR"	"Texas Instruments"	"U1"	"DDC0006A"	"Out of Stock"	"1"	"3000"	"0"	"$ 0.62"	"$ 0.00"
+"C3216X5R1E476M160AC"	"TDK"	"Cout"	"1206"	"> 10"	"1"	"1"	"1"	"$ 1.25"	"$ 1.25"
+"08053C104KAT2A"	"AVX"	"Cbst"	"0805"	"> 10"	"1"	"1"	"1"	"$ 0.10"	"$ 0.10"
+"GRM32ER61E226KE15L"	"MuRata"	"Cin"	"1210"	"> 10"	"1"	"1"	"1"	"$ 0.67"	"$ 0.67"
+"CRCW040210K0FKED"	"Vishay-Dale"	"Rfbb"	"0402"	"> 10"	"1"	"10"	"10"	"$ 0.08"	"$ 0.80"

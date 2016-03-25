@@ -1,0 +1,208 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MAVRIC
+LIBS:MainBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPS563200DDC U1
+U 1 1 56CD1980
+P 3900 2300
+F 0 "U1" H 4100 2500 60  0000 C CNN
+F 1 "TPS563200DDC" H 4000 2100 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 3950 3300 60  0001 C CNN
+F 3 "" H 3950 3300 60  0000 C CNN
+	1    3900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2650 4450 2650
+Wire Wire Line
+	3400 2650 3400 2400
+Wire Wire Line
+	4450 2650 4450 2300
+Wire Wire Line
+	4450 2300 4350 2300
+Connection ~ 3400 2650
+Text HLabel 2800 2650 0    60   BiDi ~ 0
+Vbatt
+Wire Wire Line
+	3400 2400 3450 2400
+$Comp
+L C C5
+U 1 1 56CD1AAF
+P 3000 2400
+F 0 "C5" H 3025 2500 50  0000 L CNN
+F 1 "22u" H 3025 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3038 2250 30  0001 C CNN
+F 3 "" H 3000 2400 60  0000 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2550 3000 2650
+Connection ~ 3000 2650
+Wire Wire Line
+	3000 2250 3000 2200
+Wire Wire Line
+	2800 2200 3450 2200
+Text HLabel 2800 2200 0    60   BiDi ~ 0
+GND
+Connection ~ 3000 2200
+Wire Wire Line
+	3450 2300 3350 2300
+Wire Wire Line
+	3350 2300 3350 1850
+Wire Wire Line
+	3350 1850 4550 1850
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 56CD1F46
+P 4800 1850
+F 0 "L1" H 4800 1950 50  0000 C CNN
+F 1 "3.30u" H 4800 1800 50  0000 C CNN
+F 2 "Inductors:SELF-WE-TPC_M" H 4800 1850 60  0001 C CNN
+F 3 "" H 4800 1850 60  0000 C CNN
+F 4 "0.020 ohm" H 4800 1850 60  0001 C CNN "Resistance"
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 56CD1FE8
+P 4350 2000
+F 0 "C6" H 4375 2100 50  0000 L CNN
+F 1 "100n" H 4375 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4388 1850 30  0001 C CNN
+F 3 "" H 4350 2000 60  0000 C CNN
+F 4 "0.280" H 4350 2000 60  0001 C CNN "Resistance"
+	1    4350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2200 4350 2150
+$Comp
+L R R6
+U 1 1 56CD20E9
+P 5300 2100
+F 0 "R6" V 5380 2100 50  0000 C CNN
+F 1 "56.2k" V 5300 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5230 2100 30  0001 C CNN
+F 3 "" H 5300 2100 30  0000 C CNN
+	1    5300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 56CD211D
+P 5300 2500
+F 0 "R7" V 5380 2500 50  0000 C CNN
+F 1 "10k" V 5300 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5230 2500 30  0001 C CNN
+F 3 "" H 5300 2500 30  0000 C CNN
+	1    5300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2650 5300 2850
+Wire Wire Line
+	4350 2400 4950 2400
+Wire Wire Line
+	4950 2400 4950 2300
+Wire Wire Line
+	4950 2300 5300 2300
+Wire Wire Line
+	5300 2250 5300 2350
+Connection ~ 5300 2300
+$Comp
+L GND #PWR032
+U 1 1 56CD2272
+P 5300 2850
+F 0 "#PWR032" H 5300 2600 50  0001 C CNN
+F 1 "GND" H 5300 2700 50  0000 C CNN
+F 2 "" H 5300 2850 60  0000 C CNN
+F 3 "" H 5300 2850 60  0000 C CNN
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 56CD22D4
+P 3250 2250
+F 0 "#PWR033" H 3250 2000 50  0001 C CNN
+F 1 "GND" H 3250 2100 50  0000 C CNN
+F 2 "" H 3250 2250 60  0000 C CNN
+F 3 "" H 3250 2250 60  0000 C CNN
+	1    3250 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2250 3250 2200
+Connection ~ 3250 2200
+Wire Wire Line
+	5050 1850 5700 1850
+Wire Wire Line
+	5300 1850 5300 1950
+$Comp
+L C C7
+U 1 1 56CD2417
+P 5600 2300
+F 0 "C7" H 5625 2400 50  0000 L CNN
+F 1 "47u" H 5625 2200 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 5638 2150 30  0001 C CNN
+F 3 "" H 5600 2300 60  0000 C CNN
+	1    5600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1850 5600 2150
+Connection ~ 5300 1850
+Wire Wire Line
+	5600 2450 5600 2750
+Wire Wire Line
+	5600 2750 5300 2750
+Connection ~ 5300 2750
+Connection ~ 5600 1850
+Text HLabel 5700 1850 2    60   BiDi ~ 0
+5Vout
+$EndSCHEMATC
