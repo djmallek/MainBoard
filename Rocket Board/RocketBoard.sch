@@ -448,7 +448,7 @@ L CONN_01X04 P17
 U 1 1 57775622
 P 6200 6200
 F 0 "P17" H 6200 6450 50  0000 C CNN
-F 1 "CONN_01X04" V 6300 6200 50  0000 C CNN
+F 1 "SWD" V 6300 6200 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6200 6200 60  0001 C CNN
 F 3 "" H 6200 6200 60  0000 C CNN
 	1    6200 6200
@@ -557,19 +557,19 @@ F 3 "" H 5250 1600 60  0000 C CNN
 	1    5250 1600
 	1    0    0    -1  
 $EndComp
-Text Label 2150 1200 2    60   ~ 0
+Text Label 2150 1500 2    60   ~ 0
 PA_8
 Text Label 1350 1550 0    60   ~ 0
 PA_8
-Text Label 2150 1300 2    60   ~ 0
+Text Label 2150 1400 2    60   ~ 0
 PA_9
 Text Label 1350 1650 0    60   ~ 0
 PA_9
-Text Label 2150 1400 2    60   ~ 0
+Text Label 2150 1300 2    60   ~ 0
 PA_10
 Text Label 1350 1750 0    60   ~ 0
 PA_10
-Text Label 2150 1500 2    60   ~ 0
+Text Label 2150 1200 2    60   ~ 0
 PA_11
 $Comp
 L GND #PWR012
