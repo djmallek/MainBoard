@@ -485,7 +485,7 @@ L CONN_01X02 P1
 U 1 1 57778C19
 P 3200 900
 F 0 "P1" H 3200 1050 50  0000 C CNN
-F 1 "PA_8" V 3300 900 50  0000 C CNN
+F 1 "PB_15" V 3300 900 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 900 60  0001 C CNN
 F 3 "" H 3200 900 60  0000 C CNN
 	1    3200 900 
@@ -496,7 +496,7 @@ L CONN_01X02 P4
 U 1 1 57779A13
 P 3200 1950
 F 0 "P4" H 3200 2100 50  0000 C CNN
-F 1 "PA_11" V 3300 1950 50  0000 C CNN
+F 1 "PA_9" V 3300 1950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 1950 60  0001 C CNN
 F 3 "" H 3200 1950 60  0000 C CNN
 	1    3200 1950
@@ -507,7 +507,7 @@ L CONN_01X02 P2
 U 1 1 57779AC0
 P 3200 1250
 F 0 "P2" H 3200 1400 50  0000 C CNN
-F 1 "PA_9" V 3300 1250 50  0000 C CNN
+F 1 "PB_11" V 3300 1250 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 1250 60  0001 C CNN
 F 3 "" H 3200 1250 60  0000 C CNN
 	1    3200 1250
@@ -518,7 +518,7 @@ L CONN_01X02 P3
 U 1 1 57779B5E
 P 3200 1600
 F 0 "P3" H 3200 1750 50  0000 C CNN
-F 1 "PA_10" V 3300 1600 50  0000 C CNN
+F 1 "PA_8" V 3300 1600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3200 1600 60  0001 C CNN
 F 3 "" H 3200 1600 60  0000 C CNN
 	1    3200 1600
@@ -566,10 +566,6 @@ PA_9
 Text Label 1350 1650 0    60   ~ 0
 PA_9
 Text Label 2150 1300 2    60   ~ 0
-PA_10
-Text Label 1350 1750 0    60   ~ 0
-PA_10
-Text Label 2150 1200 2    60   ~ 0
 PA_11
 $Comp
 L GND #PWR012
@@ -1068,17 +1064,6 @@ F 3 "" H 5050 2700 60  0000 C CNN
 	1    5050 2700
 	0    1    1    0   
 $EndComp
-$Comp
-L R_PACK4 RP4
-U 1 1 5779A362
-P 4400 3300
-F 0 "RP4" H 4400 3750 50  0000 C CNN
-F 1 "220 4pack" H 4400 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_4x1206" H 4400 3300 60  0001 C CNN
-F 3 "http://www.digikey.com/product-detail/en/yageo/YC164-JR-07220RL/YC164J-220CT-ND/1005664" H 4400 3300 60  0001 C CNN
-	1    4400 3300
-	1    0    0    -1  
-$EndComp
 Text Notes 4400 2450 0    60   ~ 0
 Analog
 Text Label 4200 2950 2    60   ~ 0
@@ -1338,25 +1323,25 @@ Wire Wire Line
 Wire Wire Line
 	2700 3600 3050 3600
 Wire Wire Line
-	4600 2950 4700 2950
+	4200 2950 4700 2950
 Wire Wire Line
 	4700 2950 4700 2600
 Wire Wire Line
 	4700 2600 5050 2600
 Wire Wire Line
-	4600 3050 4800 3050
+	4200 3050 4800 3050
 Wire Wire Line
 	4800 3050 4800 2950
 Wire Wire Line
 	4800 2950 5050 2950
 Wire Wire Line
-	4600 3150 4800 3150
+	4200 3150 4800 3150
 Wire Wire Line
 	4800 3150 4800 3300
 Wire Wire Line
 	4800 3300 5050 3300
 Wire Wire Line
-	4600 3250 4700 3250
+	4200 3250 4700 3250
 Wire Wire Line
 	4700 3250 4700 3650
 Wire Wire Line
@@ -1388,12 +1373,9 @@ Connection ~ 1700 5100
 Wire Wire Line
 	1700 4100 1350 4100
 Wire Wire Line
-	1700 4000 1350 4000
-Wire Wire Line
 	1700 2600 1700 4100
 Wire Wire Line
 	1700 3900 1350 3900
-Connection ~ 1700 4000
 Wire Wire Line
 	1350 3800 1700 3800
 Connection ~ 1700 3900
@@ -1406,12 +1388,9 @@ Connection ~ 1700 3700
 Wire Wire Line
 	1700 3300 1350 3300
 Connection ~ 1700 3600
-Wire Wire Line
-	1350 3200 1700 3200
 Connection ~ 1700 3300
 Wire Wire Line
 	1700 2900 1350 2900
-Connection ~ 1700 3200
 Wire Wire Line
 	1700 2600 1350 2600
 Connection ~ 1700 2900
@@ -1539,8 +1518,6 @@ F 3 "" H 6950 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 950  1500 1450
-Wire Wire Line
 	1500 1350 1350 1350
 Connection ~ 1500 1450
 Wire Wire Line
@@ -1549,12 +1526,7 @@ Connection ~ 1500 1350
 Wire Wire Line
 	1500 1150 1350 1150
 Connection ~ 1500 1250
-Wire Wire Line
-	1500 1050 1350 1050
 Connection ~ 1500 1150
-Wire Wire Line
-	1500 950  1350 950 
-Connection ~ 1500 1050
 Text Label 1350 750  0    60   ~ 0
 PA_0
 Text Label 1350 850  0    60   ~ 0
@@ -1611,4 +1583,56 @@ Wire Wire Line
 	6600 2750 6600 2500
 Wire Wire Line
 	6600 2300 6600 2150
+Wire Wire Line
+	1500 1150 1500 1450
+Text Label 1350 950  0    60   ~ 0
+TX2
+Text Label 1350 1050 0    60   ~ 0
+RX2
+Text Label 6400 3200 2    60   ~ 0
+TX2
+Text Label 6400 3300 2    60   ~ 0
+RX2
+$Comp
+L CONN_01X02 UART2
+U 1 1 57837830
+P 6750 3250
+F 0 "UART2" H 6750 3400 50  0000 C CNN
+F 1 "UART2" V 6850 3250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6750 3250 60  0001 C CNN
+F 3 "" H 6750 3250 60  0000 C CNN
+	1    6750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3200 6550 3200
+Wire Wire Line
+	6400 3300 6550 3300
+Text Label 1350 3200 0    60   ~ 0
+TX1
+Text Label 1350 1750 0    60   ~ 0
+RX1
+Text Label 1350 4000 0    60   ~ 0
+PB_15
+Text Label 2150 1200 2    60   ~ 0
+PB_15
+Text Label 6400 3650 2    60   ~ 0
+TX1
+Text Label 6400 3750 2    60   ~ 0
+RX1
+$Comp
+L CONN_01X02 UART1
+U 1 1 5783FA1A
+P 6750 3700
+F 0 "UART1" H 6750 3850 50  0000 C CNN
+F 1 "UART1" V 6850 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6750 3700 60  0001 C CNN
+F 3 "" H 6750 3700 60  0000 C CNN
+	1    6750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3650 6550 3650
+Wire Wire Line
+	6400 3750 6550 3750
 $EndSCHEMATC
