@@ -805,17 +805,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 2650 1650 2650
 Wire Wire Line
-	1850 2650 1900 2650
+	1850 2650 1950 2650
 Wire Wire Line
-	1900 2650 1950 2650
-Wire Wire Line
-	1900 2650 1900 2750
-Wire Wire Line
-	1900 2750 1900 2850
-Wire Wire Line
-	1900 2850 1900 2950
-Wire Wire Line
-	1900 2950 1900 3050
+	1900 2650 1900 3050
 Wire Wire Line
 	1900 2750 1950 2750
 Connection ~ 1900 2650
@@ -867,9 +859,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 2500 3200 2650
 Wire Wire Line
-	3050 2650 3200 2650
-Wire Wire Line
-	3200 2650 3300 2650
+	3050 2650 3300 2650
 Connection ~ 3200 2650
 Wire Wire Line
 	3500 2650 3650 2650
@@ -926,38 +916,26 @@ Wire Wire Line
 Wire Wire Line
 	3300 4300 3700 4300
 Wire Wire Line
-	1350 1200 1500 1200
-Wire Wire Line
-	1500 1200 1950 1200
-Wire Wire Line
-	1950 1200 1950 1200
-Wire Wire Line
-	1950 1200 2100 1200
+	1350 1200 2100 1200
 Connection ~ 1500 1200
 Wire Wire Line
-	1350 1300 1500 1300
-Wire Wire Line
-	1500 1300 1700 1300
+	1350 1300 1700 1300
 Connection ~ 1500 1300
 Wire Wire Line
 	1950 5350 1800 5350
 Wire Wire Line
 	1950 5600 1800 5600
 Wire Wire Line
-	2500 1600 2500 1550
-Wire Wire Line
-	2500 1550 2500 1500
+	2500 1500 2500 1600
 Wire Wire Line
 	1700 1300 1700 1550
 Wire Wire Line
 	1950 1500 1950 1550
 Wire Wire Line
-	1950 1300 1950 1200
+	1950 1100 1950 1300
 Connection ~ 1950 1200
 Wire Wire Line
-	3000 1100 3000 1200
-Wire Wire Line
-	3000 1200 3000 1300
+	3000 1100 3000 1300
 Wire Wire Line
 	3000 1550 3000 1500
 $Comp
@@ -971,9 +949,6 @@ F 3 "" H 1950 1100 60  0000 C CNN
 	1    1950 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 1100 1950 1200
-Connection ~ 1950 1200
 $Comp
 L +3.3V #PWR029
 U 1 1 57861790
@@ -1018,16 +993,10 @@ GNDPass
 Text Label 8050 1000 0    60   ~ 0
 3.3vPass
 Wire Wire Line
-	1700 1550 1950 1550
-Wire Wire Line
-	1950 1550 2500 1550
-Wire Wire Line
-	2500 1550 3000 1550
+	1700 1550 3000 1550
 Connection ~ 2500 1550
 Connection ~ 1950 1550
 Wire Wire Line
-	2900 1200 3000 1200
-Wire Wire Line
-	3000 1200 3250 1200
+	2900 1200 3250 1200
 Connection ~ 3000 1200
 $EndSCHEMATC
