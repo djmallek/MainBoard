@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Tester-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,13 +51,13 @@ U 1 1 576E1833
 P 4250 2900
 F 0 "IC1" H 3500 4150 40  0000 L BNN
 F 1 "ATMEGA328-A" H 4650 1500 40  0000 L BNN
-F 2 "Housings_QFP:LQFP-32_5x5mm_Pitch0.5mm" H 4250 2900 30  0000 C CIN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4250 2900 30  0000 C CIN
 F 3 "" H 4250 2900 60  0000 C CNN
 	1    4250 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L 7805 U1
+L 7805-RESCUE-Tester U1
 U 1 1 576E1991
 P 1650 1250
 F 0 "U1" H 1800 1054 60  0000 C CNN
